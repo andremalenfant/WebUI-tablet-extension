@@ -2,7 +2,7 @@ const DEGRAD = 180 / Math.PI;
 const RADDEG = Math.PI / 180;
 const TOLERANCE_EQUAL = 0.00001;
 
-const Error = {
+const TabletError = {
     Ok: 0,
     ExpressionDivideByZero: 1,
     ExpressionInvalidArgument: 2,
